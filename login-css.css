@@ -1,0 +1,215 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.437),rgba(0, 0, 0, 0.456)), url('https://media.cntraveler.com/photos/598339c9b7a86962e8e27c5d/master/pass/Paris_GettyImages-601763009.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+form{
+    margin: 10% 20%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+}
+.logo span{
+    font-size: 30px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo h1{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s ease-out;
+}
+.logo h1:hover{
+    color: black;
+}
+.user, .pass{
+    padding-bottom: 10px;
+}
+input[type='text'], input[type='password']{
+    padding: 12px 80px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 20px;
+    border: none;
+    outline: none;
+    
+}
+input[type='submit']{
+    border: 1px solid white;
+    color: rgb(37, 14, 3);
+    padding: 12px 39.5%;
+    font-size: 16px;
+    text-align: center;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgb(73, 28, 5) 50%) right;
+    background-size: 200%;
+    transition: 0.8s ease-out;
+}
+input[type='submit']:hover{
+    background-position: left;
+    border: 1px solid rgb(73, 28, 5);
+    color: white;
+}
+.text{
+    font-size: 20px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text a{
+    color: rgb(73, 28, 5);
+}
+.text2{
+    font-size: 20px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2 span{
+    font-size: 20px;
+    color:  rgb(73, 28, 5);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 30px;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    color: brown;
+}
+.icons .gg:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.icons .fb:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+@media(min-width:650px){
+    form{
+    margin: 8% 18%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+}
+}
+@media(max-width:589px){
+    form{
+    margin: 10% 16%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+}
+.icons{
+    color: white;
+}
+}
+@media(max-width:530px){
+    form{
+    margin: 10% 12%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+}
+.icons{
+    color: white;
+}
+}
+@media(max-width:425px){
+    form{
+    margin: 25% 2%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+    background-color: rgba(39, 23, 23, 0.418);
+}
+.icons{
+    color: white;
+}
+body{
+    background-image:url('https://www.tripsavvy.com/thmb/HY1y__EjHsgQ0Cq7JE82F4bo0F8=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-936287480-5b44272346e0fb0037a4708e.jpg');
+    height: 80vh;
+}
+.logo h1{
+    color: white;
+}
+.text2, .text2 span{
+    color: white;
+}
+.text p{
+    color: white;
+}
+.text a{
+    color: white;
+}
+}   
+@media(max-width:412px){
+    body{
+        height: 98vh;
+    }
+}
+@media(max-width:380px){
+    body{
+        height: 110vh;
+    }
+}
+@media(max-width:350px){
+    body{
+        height: 120vh;
+    }
+}
+@media(max-width:320px){
+    body{
+        height: 130vh;
+    }
+}
+@media(max-width:295px){
+    body{
+        height: 140vh;
+    }
+}
+@media(max-width:1030px){
+    form{
+    margin: 10% 3%;
+    text-align: center;
+    border: 1px solid white;
+    width:fit-content;
+}
+.icons{
+    color: white;
+}
+}
+@media(min-width:2000px){
+    form{
+        margin: 8% 25%;
+    }
+    .logo h1, .logo span{
+        font-size: 60px;
+    }
+    .user, .pass{
+    padding-bottom: 15px;
+}
+input[type='text'], input[type='password']{
+    padding: 14px 100px;
+    font-size: 30px;
+    margin: 0px 70px;         
+}
+input[type='submit']{            
+    padding: 14px 33%;
+    font-size: 40px;
+}
+.text{
+    font-size: 40px;
+}
+.text2{
+    font-size: 40px;
+}
+.text2 span{
+    font-size: 40px;
+}
+.icons{
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+}

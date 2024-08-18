@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.part{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://www.mistay.in/travel-blog/content/images/2020/07/travel-4813658_1920.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position:center;
+}
+.header{
+    margin-bottom: 8%;
+}
+.logo span{
+    font-size: 30px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo h1{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s ease-out;
+}
+.logo h1:hover{
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    padding: 10px 20px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s ease-out;
+}
+.list li:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+.login{
+    list-style-type: none;
+    margin: 10px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid white;
+    padding: 8px 20px 8px;
+
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, red 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.login a:hover{
+    background-position: left;
+    border: 1px solid red;
+}
+.sec{
+    text-align: center;
+}
+/* .sec .text h1
+{
+    font-size: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+} */
+.lineUp {
+       animation: 2s anim-lineUp ease-out;
+       font-size: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+       }
+ @keyframes anim-lineUp {
+0% {
+opacity: 0;
+transform: translateY(80%);
+}
+20% {
+opacity: 0;
+}
+50% {
+opacity: 1;
+transform: translateY(0%);
+}
+100% {
+opacity: 1;
+transform: translateY(0%);
+}
+}
+.sec .text2 h4{
+    font-size: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: 3s anim-text2 ease-out;
+}
+@keyframes anim-text2 {
+0% {
+opacity: 0;
+transform: translateY(80%);
+}
+20% {
+opacity: 0;
+}
+50% {
+opacity: 1;
+transform: translateY(0%);
+}
+100% {
+opacity: 1;
+transform: translateY(0%);
+}
+}
+.btn{
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.btn li a{
+    text-decoration: none;
+    color: white;
+    background: none;
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px 20px 20px;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, red 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.btn li a:hover{
+    background-position: left;
+    border: 1px solid red;
+    color: white;
+}
+.icons{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transition: transform 0.3s ease;
+}
+.icons .fb:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.icons .ins:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.icons .wt:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+@media(min-width:2750px){
+    .header{
+        margin: 5%;
+        margin-bottom: 15%;
+    }
+}
